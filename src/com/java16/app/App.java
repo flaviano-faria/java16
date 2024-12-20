@@ -1,5 +1,6 @@
 package com.java16.app;
 
+import com.java16.service.MapMultiService;
 import com.java16.service.PatternMatchingService;
 import com.java16.service.RecordService;
 import com.java16.service.StreamToListService;
@@ -15,6 +16,9 @@ public class App {
 		
 		StreamToListService streamService = new StreamToListService();
 		streamService.getStreamToList();
+		
+		MapMultiService mapMultiService = new MapMultiService();
+		mapMultiService.getMapMultiStream();
 	}
 
 }
